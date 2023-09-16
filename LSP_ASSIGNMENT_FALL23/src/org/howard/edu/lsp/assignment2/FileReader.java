@@ -6,10 +6,7 @@ import java.net.URL;
 import java.util.Scanner;
 
 
-public class FileReader {
-	public FileReader() {
-		System.out.println("My Constructor");
-	}	
+public class FileReader {	
 	public String readToString(String resource) throws FileNotFoundException {
 		URL url = getClass().getClassLoader().getResource(resource);
 		
